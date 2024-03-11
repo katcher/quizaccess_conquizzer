@@ -1,0 +1,2 @@
+# conquizzer
+Concordia conquizzer plugin
