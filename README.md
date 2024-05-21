@@ -1,8 +1,13 @@
 # Concordia Quizzer #
 
-TODO Describe the plugin shortly here.
+Creates additional settings for the quiz in order to show Concordia-specific
+information, including quiz information and materials allowed.
 
-TODO Provide more detailed description here.
+### TODO LIST: ###
+1. Create templates for displaying
+2. Move renderers that are inherent to the plugin from the old theme
+3. Enhance settings page
+4. Check classes for Bootstrap compatibility
 
 ## Installing via uploaded ZIP file ##
 
@@ -29,7 +34,7 @@ to complete the installation from the command line.
 
 ## License ##
 
-2021 Brandon Jimenez <brandon.jimenez@concordia.ca>
+2021 Brandon Jimenez <brandon.jimenez@concordia.ca> on behalf of Concordia University
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
