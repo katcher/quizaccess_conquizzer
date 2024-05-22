@@ -3,11 +3,23 @@
 Creates additional settings for the quiz in order to show Concordia-specific
 information, including quiz information and materials allowed.
 
+## Features: ##
+v 0.1.0
+1. Concordia Exam Instructions for specific instructions to our students
+2. Allowed Materials to display a list of approved materials for the current exam
+3. Customized info on the Exam
+4. Customized checkboxes for the Copyright notice and the Terms and conditions
+
 ### TODO LIST: ###
-1. Create templates for displaying
-2. Move renderers that are inherent to the plugin from the old theme
-3. Enhance settings page
-4. Check classes for Bootstrap compatibility
+CQ1. Review Database structure
+CQ2. Enhance settings page
+CQ3. Move renderers that are inherent to the plugin from the old theme
+CQ4. Create templates for displaying
+CQ5. Check classes for Bootstrap compatibility
+CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes
+CQ7. Cleanup language files
+CQ8. Refactor Jquery as an AMD JS module 
+
 
 ## Installing via uploaded ZIP file ##
 
