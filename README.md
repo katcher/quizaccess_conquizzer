@@ -1,3 +1,5 @@
+![Concordia logo](https://www.concordia.ca/etc/designs/concordia/clientlibs/img/logo-concordia-university-montreal.png)
+
 # Concordia Quizzer #
 
 Creates additional settings for the quiz in order to show Concordia-specific
@@ -11,18 +13,21 @@ v 0.1.0
 4. Customized checkboxes for the Copyright notice and the Terms and conditions
 
 ### TODO LIST: ###
-CQ1. Review Database structure
-CQ2. Enhance settings page
-CQ3. Move renderers that are inherent to the plugin from the old theme
-CQ4. Create templates for displaying
-CQ5. Check classes for Bootstrap compatibility
-CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes
-CQ7. Cleanup language files
-CQ8. Refactor Jquery as an AMD JS module 
-
-### Changes performed: ###
 v 0.2.0
-CQ7. Cleanup language files
+- [ ] CQ1. Review Database structure
+- - [x] CQ11 conquizz_notes table has been removed from the XMLDB since it was never used
+- - [x] CQ12 upgrade.php file reflects that dropping when upgrading
+- - [ ] CQ13 review options table according to UI/UX review
+- - [ ] CQ14 upgrade.php file changes to options (if needed)
+- [ ] CQ2. Enhance settings page
+- [ ] CQ3. Move renderers that are inherent to the plugin from the old theme
+- [ ] CQ4. Create templates for displaying
+- [ ] CQ5. Check classes for Bootstrap 4 compatibility
+- ~~CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes (part of the theme, not the plugin)~~
+- [ ] CQ7. Language files
+- - [x] Cleanup
+- - [ ] Translation
+- [ ] CQ8. Refactor Jquery as an AMD JS module 
 
 ## Installing via uploaded ZIP file ##
 
