@@ -20,6 +20,9 @@ CQ6. Add second verification for Copyright notice and Terms and conditions check
 CQ7. Cleanup language files
 CQ8. Refactor Jquery as an AMD JS module 
 
+### Changes performed: ###
+v 0.2.0
+CQ7. Cleanup language files
 
 ## Installing via uploaded ZIP file ##
 
