@@ -19,7 +19,7 @@
  *
  * @package     quizaccess_conquizzer
  * @category    admin
- * @copyright   2021 Brandon Jimenez <brandon.jimenez@concordia.ca>
+ * @copyright   2021 onwards Brandon Jimenez <brandon.jimenez@concordia.ca> on behalf of Concordia University
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -83,6 +83,7 @@ class quizaccess_conquizzer extends quiz_access_rule_base
         $mform->setType('landingdescription', PARAM_RAW);
         $mform->setDefault('landingdescription',  array('text'=> $description, 'format'=>1));        
         $mform->addHelpButton('landingdescription', 'quizzerdefinition', 'quizaccess_conquizzer');
+        $mform->setExpanded('landingdescriptionhdr');
         
         // -------------------------------------------------------------------------------
         $mform->insertElementBefore($mform->createElement('header', 'landingoptionshdr', get_string("quizzeroptionshdr", "quizaccess_conquizzer")), 'timing');
@@ -90,11 +91,13 @@ class quizaccess_conquizzer extends quiz_access_rule_base
         $mform->setType('quizzeroptions', PARAM_RAW);
         $mform->setDefault('quizzeroptions',  array('text'=>$options, 'format'=>1));
         $mform->addHelpButton('quizzeroptions', 'quizzeroptions', 'quizaccess_conquizzer');
-        /*$options=array(); 
-        $options[] =  $mform->createElement('advcheckbox', 'options[]',get_string("onlinecalculator", "quizaccess_conquizzer"), '', array('group' => 1), array('','demo1'));
-        $options[] =  $mform->createElement('advcheckbox', 'options[]',get_string("physicalcalculator", "quizaccess_conquizzer"), '', array('group' => 1), array('','demo2'));
-        $options[] =  $mform->createElement('advcheckbox', 'options[]',get_string("penandpaper", "quizaccess_conquizzer"), '', array('group' => 1), array('','demo3'));
-        $mform->addGroup($options, 'preproceduregroup', get_string('quizzeroptions', 'quizaccess_conquizzer'),array('<br>'), false);*/
+
+        /*$forbidden=[];
+        $forbidden[] =  $mform->createElement('advcheckbox', 'forbidden[translation]',get_string("translation", "quizaccess_conquizzer"), null, ['group' => 2], array('','translation'));
+        $forbidden[] =  $mform->createElement('advcheckbox', 'forbidden[additionalresources]',get_string("additionalresources", "quizaccess_conquizzer"), null, ['group' => 2], array('','additionalresources'));
+        
+        $mform->insertElementBefore($mform->addGroup($forbidden, 'preproceduregroup', get_string('quizzerforbidden', 'quizaccess_conquizzer'),array('<br>'), false), 'timing');
+        $quizform->add_checkbox_controller(2);*/
     }
 
     /**
