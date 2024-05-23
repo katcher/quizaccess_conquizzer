@@ -27,7 +27,7 @@ v 0.2.0
 - [ ] CQ7. Language files
 - - [x] Cleanup
 - - [ ] Translation
-- [ ] CQ8. Refactor Jquery as an AMD JS module 
+- [x] CQ8. Refactor Jquery as an AMD JS module (removed the files altogether)
 
 ## Installing via uploaded ZIP file ##
 
