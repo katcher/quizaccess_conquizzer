@@ -17,9 +17,9 @@ v 0.2.0
 - [ ] CQ1. Review Database structure
 - - [x] CQ11 conquizz_notes table has been removed from the XMLDB since it was never used
 - - [x] CQ12 upgrade.php file reflects that dropping when upgrading
-- - [ ] CQ13 review options table according to UI/UX review
-- - [ ] CQ14 upgrade.php file changes to options (if needed)
-- [ ] CQ2. Enhance settings page
+- ~~- [ ] CQ13 review options table according to UI/UX review (deemed not necessary)~~
+- ~~- [ ] CQ14 upgrade.php file changes to options (if needed) (deemed not necessary)~~
+- [x] CQ2. Enhance settings page
 - [ ] CQ3. Move renderers that are inherent to the plugin from the old theme
 - [ ] CQ4. Create templates for displaying
 - [ ] CQ5. Check classes for Bootstrap 4 compatibility
