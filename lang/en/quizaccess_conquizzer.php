@@ -28,11 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Concordia Quizzer';
 
 $string['quizzerdescription'] = 'Concordia Exam Instructions';
-$string['quizzerdefinition'] = 'Exam Instructions';
+$string['quizzerdefinition'] = $string['examinstr'] = 'Exam Instructions';
 $string['quizzerdefinition_help'] = 'Add the Instructions you would like to give your students regarding the exam. These will appear on the exam landing page.';
 
 $string['quizzeroptionshdr'] = 'Concordia Allowed Materials';
-$string['quizzeroptions'] = 'Allowed Materials';
+$string['quizzeroptions']  = $string['examallowed'] = 'Allowed Materials';
 $string['quizzeroptions_help'] = 'List materials that are permissible and those that are not (e.g. calculators, formula sheets, etc.). These will appear below the exam instructions.';
 $string['quizzerforbidden'] = 'Forbidden Materials';
 
@@ -52,14 +52,6 @@ $string['oxford'] = '<a href="https://www-oed-com.lib-ezproxy.concordia.ca/">Oxf
 $string['translation'] = 'You are not allowed to use any translation or grammar checking tools.';
 $string['additionalresources'] = 'No other resources or materials may be used during the exam.';
 
-//titles
-$string['examinstr'] = "Exam Instructions";
-$string['examinfo'] = "Exam Information";
-
 $string['question'] = 'Question'; //not sure where this is going
 
-//quiz info
-$string['testdate']     = 'Date';
-$string['testopen']     = 'Exam Opens';
-$string['testduration'] = 'Duration';
-$string['testnotset']   = 'Not yet available';
+$string['privacy:metadata'] = 'The Concordia Quizzer quiz access rule plugin does not store any personal data.';

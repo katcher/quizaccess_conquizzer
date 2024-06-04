@@ -25,8 +25,8 @@ v 0.2.0
 - [ ] CQ5. Check classes for Bootstrap 4 compatibility
 - ~~CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes (part of the theme, not the plugin)~~
 - [ ] CQ7. Language files
-- - [x] Cleanup
-- - [ ] Translation
+- - [x] CQ71 Cleanup
+- - [ ] CQ72 Translation
 - [x] CQ8. Refactor Jquery as an AMD JS module (removed the files altogether)
 
 ## Installing via uploaded ZIP file ##
