@@ -28,6 +28,7 @@ v 0.2.0
 - - [x] CQ71 Cleanup
 - - [x] CQ72 Translation (fr and fr_ca)
 - [x] CQ8. Refactor Jquery as an AMD JS module (removed the files altogether)
+- [x] CQ9. Added Privacy classes for Moodle compliance
 
 ## Installing via uploaded ZIP file ##
 
