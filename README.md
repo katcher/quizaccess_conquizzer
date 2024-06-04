@@ -14,7 +14,7 @@ v 0.1.0
 
 ### TODO LIST: ###
 v 0.2.0
-- [ ] CQ1. Review Database structure
+- [x] CQ1. Review Database structure
 - - [x] CQ11 conquizz_notes table has been removed from the XMLDB since it was never used
 - - [x] CQ12 upgrade.php file reflects that dropping when upgrading
 - ~~- [ ] CQ13 review options table according to UI/UX review (deemed not necessary)~~
@@ -24,9 +24,9 @@ v 0.2.0
 - [ ] CQ4. Create templates for displaying
 - [ ] CQ5. Check classes for Bootstrap 4 compatibility
 - ~~CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes (part of the theme, not the plugin)~~
-- [ ] CQ7. Language files
+- [x] CQ7. Language files
 - - [x] CQ71 Cleanup
-- - [ ] CQ72 Translation
+- - [x] CQ72 Translation (fr and fr_ca)
 - [x] CQ8. Refactor Jquery as an AMD JS module (removed the files altogether)
 
 ## Installing via uploaded ZIP file ##

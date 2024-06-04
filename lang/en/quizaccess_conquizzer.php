@@ -19,7 +19,7 @@
  *
  * @package     quizaccess_conquizzer
  * @category    string
- * @copyright   2021 onwards Brandon Jimenez <brandon.jimenez@concordia.ca> in behalf of Concordia University
+ * @copyright   2024 onwards Brandon Jimenez <brandon.jimenez@concordia.ca> in behalf of Concordia University
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -34,7 +34,7 @@ $string['quizzerdefinition_help'] = 'Add the Instructions you would like to give
 $string['quizzeroptionshdr'] = 'Concordia Allowed Materials';
 $string['quizzeroptions']  = $string['examallowed'] = 'Allowed Materials';
 $string['quizzeroptions_help'] = 'List materials that are permissible and those that are not (e.g. calculators, formula sheets, etc.). These will appear below the exam instructions.';
-$string['quizzerforbidden'] = 'Forbidden Materials';
+$string['quizzerforbidden'] = 'Unauthorized Materials';
 
 //allowed materials
 $string['onlinecalculator'] = 'Online Calculator';
