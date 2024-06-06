@@ -21,7 +21,7 @@ v 0.2.0
 - ~~- [ ] CQ14 upgrade.php file changes to options (if needed) (deemed not necessary)~~
 - [x] CQ2. Enhance settings page
 - [ ] CQ3. Move renderers that are inherent to the plugin from the old theme
-- [ ] CQ4. Create templates for displaying
+- [x] CQ4. Create templates for displaying
 - [ ] CQ5. Check classes for Bootstrap 4 compatibility
 - ~~CQ6. Add second verification for Copyright notice and Terms and conditions checkboxes (part of the theme, not the plugin)~~
 - [x] CQ7. Language files
