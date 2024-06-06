@@ -28,9 +28,9 @@ function xmldb_quizaccess_conquizzer_upgrade($oldversion) {
     $result = TRUE;
 
 
-    if ($oldversion < 2021032200) {
+    if ($oldversion < 2024060601) {
 
-        // Define table conquizz_options to be dropped.
+        // Define table conquizz_notes to be dropped.
         $table = new xmldb_table('conquizz_notes');
 
         // Conditionally launch drop table for conquizz_notes.
@@ -39,7 +39,7 @@ function xmldb_quizaccess_conquizzer_upgrade($oldversion) {
         }
 
         // Conquizzer savepoint reached.
-        upgrade_plugin_savepoint(true, 2021032200, 'quizaccess', 'conquizzer');
+        upgrade_plugin_savepoint(true, 2024060601, 'quizaccess', 'conquizzer');
     }
 
     return $result;
