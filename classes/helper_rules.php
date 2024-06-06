@@ -15,30 +15,32 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for quizaccess_conquizzer.
+ * Helper class for quizaccess_conquizzer.
  *
  * @package    quizaccess_conquizzer
  * @copyright  2024 Brandon Jimenez <brandon.jimenez@concordia.ca> on behalf of Concordia University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace quizaccess_conquizzer\privacy;
+ namespace quizaccess_conquizzer;
 
-/**
- * Privacy Subsystem for quizaccess_conquizzer implementing null_provider.
- *
- * @copyright  2024 Brandon Jimenez <brandon.jimenez@concordia.ca> on behalf of Concordia University
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-class provider implements \core_privacy\local\metadata\null_provider {
+ //defined('MOODLE_INTERNAL') || die();
 
-    /**
-     * Get the language string identifier with the component's language
-     * file to explain why this plugin stores no data.
-     *
-     * @return  string
-     */
-    public static function get_reason() : string {
-        return 'privacy:metadata';
+ class helper_rules {
+    public static function quiz_description($quiz) {
+        global $DB;
+        $sql = "SELECT 'record' AS resultrecord,q.id,
+                       COALESCE(czdesc.description,'No description available') as conquizz_description,
+                       COALESCE(czopts.options,'No authorized materials') as conquizz_options
+                  FROM {quiz} q
+             LEFT JOIN {conquizz_descriptions} czdesc ON czdesc.quizid = q.id 
+             LEFT JOIN {conquizz_options} czopts ON czopts.quizid = q.id
+                 WHERE q.id = :qid";
+        $records = $DB->get_records_sql($sql, array('qid'=>$quiz->id));
+        return $records;
     }
-}
+
+    public static function little_html_test () : string {
+        return "<p>this is my little html test function</p>";
+    }
+ }
