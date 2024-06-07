@@ -10,9 +10,9 @@ v 0.1.0
 1. Concordia Exam Instructions for specific instructions to our students
 2. Allowed Materials to display a list of approved materials for the current exam
 3. Customized info on the Exam
-4. Customized checkboxes for the Copyright notice and the Terms and conditions
+4. ~~Customized checkboxes for the Copyright notice and the Terms and conditions~~ (moved to the theme)
 
-### TODO LIST: ###
+### Changes: ###
 v 0.2.0
 - [x] CQ1. Review Database structure
 - - [x] CQ11 conquizz_notes table has been removed from the XMLDB since it was never used
@@ -30,6 +30,8 @@ v 0.2.0
 - - [x] CQ72 Translation (fr and fr_ca)
 - [x] CQ8. Refactor Jquery as an AMD JS module (removed the files altogether)
 - [x] CQ9. Added Privacy classes for Moodle compliance
+
+### TODO LIST: ###
 
 ## Installing via uploaded ZIP file ##
 
